@@ -21,7 +21,7 @@ CONFIG = {
     'val_split': 0.4,     # (val_split*100)% площади уйдет на валидацию
     'grid_cells': 10,     # Разбиваем область на 10x10 крупных блоков
     'class_id': 0,
-    'bg_ratio': 0.01,
+    'bg_ratio': 0.001,
 }
 
 def create_spatial_split_grid(raster_files, grid_cells, val_ratio):
