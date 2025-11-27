@@ -1,0 +1,1 @@
+pip install rasterio geopandas shapely opencv-python tqdm ultralytics
